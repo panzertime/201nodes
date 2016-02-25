@@ -1,0 +1,33 @@
+<h1>UTAH SETTLED PLACE SELECTOR<h1>
+
+<p>enter city or portion of city name</p>
+
+<input type="text" id="name_entry_field" onkeyup="showHints(this.value)" autocomplete="on">
+
+<hr>
+
+<p>possible matches listed here</p>
+
+<p id="destination">
+<ul></ul>
+</p>
+
+<script>
+var cities=["Alpine","Altamont","Alton","Altonah","American Fork","Aneth","Annabella","Provo","Orem","Salt Lake City"];
+function showHints(str){
+	if(str===""){
+		
+	document.getElementById("destination").innerHTML="<ul></ul>";
+
+		return;
+	}
+	var list="<ul>";
+	for(i=0;i<cities.length;i++){
+		if(cities[i].indexOf(str)===0){
+			list+="<li>"+cities[i]+"</li>";
+		}
+	}
+	list+="</ul>";
+	document.getElementById("destination").innerHTML=list;
+}
+</script>
