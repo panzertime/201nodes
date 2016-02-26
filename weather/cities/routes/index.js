@@ -7,6 +7,27 @@ router.get('/', function(req, res, next) {
   res.sendFile('cities.html', { root: 'public' });
 });
 
+
+/* GET test1 page. */
+router.get('/test1.html', function(req, res, next) {
+  res.sendFile('test1.html', { root: 'public' });
+});
+
+/* GET test2 page. */
+router.get('/test2.txt',function(req, res, next) {
+  res.sendFile('test2.txt', { root: 'public' });
+});
+
+/* GET test3 page */
+router.get('/test3.gif', function(req, res, next) {
+  res.sendFile('test3.gif', { root: 'public' });
+});
+
+/* GET test4 page. */
+router.get('/test4.jpg', function(req, res, next) {
+  res.sendFile('test4.jpg', { root: 'public' });
+});
+
 /* router for getcity service */
 router.get('/getcity',function(req,res,next) {
 	console.log("In getcity route");
