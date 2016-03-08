@@ -1,0 +1,68 @@
+
+> colors@0.0.0 start /home/bitnami/nodes/colors
+> node ./bin/www
+
+
+> colors@0.0.0 start /home/bitnami/nodes/colors
+> node ./bin/www
+
+[0mGET /? [36m304 [0m9.950 ms - -[0m
+[0mGET /resume.css [36m304 [0m1.434 ms - -[0m
+[0mGET / [32m200 [0m3.967 ms - 3542[0m
+[0mGET /resume.css [36m304 [0m0.455 ms - -[0m
+[0mGET /resume.css [32m200 [0m1.261 ms - 1101[0m
+In getcolor route
+/^R/
+Intermediate result: [object Object]
+red
+Intermediate result: [object Object]
+green
+Intermediate result: [object Object]
+blue
+Intermediate result: [object Object]
+cyan
+Intermediate result: [object Object]
+magenta
+Intermediate result: [object Object]
+yellow
+Intermediate result: [object Object]
+black
+[]
+[0mGET /getcolor?q=R [36m304 [0m5.767 ms - -[0m
+In getcolor route
+/^R/
+Intermediate result: [object Object]
+red
+Intermediate result: [object Object]
+green
+Intermediate result: [object Object]
+blue
+Intermediate result: [object Object]
+cyan
+Intermediate result: [object Object]
+magenta
+Intermediate result: [object Object]
+yellow
+Intermediate result: [object Object]
+black
+[]
+[0mGET /getcolor?q=R [36m304 [0m1.394 ms - -[0m
+In getcolor route
+/^red/
+Intermediate result: [object Object]
+red
+Data matched: [object Object]
+Intermediate result: [object Object]
+green
+Intermediate result: [object Object]
+blue
+Intermediate result: [object Object]
+cyan
+Intermediate result: [object Object]
+magenta
+Intermediate result: [object Object]
+yellow
+Intermediate result: [object Object]
+black
+[ { color: 'red', value: '#f00' } ]
+[0mGET /getcolor?q=red [36m304 [0m2.801 ms - -[0m

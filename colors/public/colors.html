@@ -1,0 +1,129 @@
+
+<html>
+<head>
+<title>City Finder</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script>
+		$(document).ready(function () {
+			$( "#cityfield" ).keyup(function() {
+var url = "http://p-ti.me:3000/getcolor?q="+$("#cityfield").val();
+			
+  $.getJSON(url,function(data) {
+    var everything;
+    everything = "<ul>";
+    $.each(data, function(i,item) {
+      everything += "<li> "+data[i].color;
+    });
+    everything += "</ul>";
+    $("#txtHint").html(everything);
+  })
+  .done(function() { console.log('getJSON request succeeded!'); })
+  .fail(function(jqXHR, textStatus, errorThrown) { 
+    console.log('getJSON request failed! ' + textStatus); 
+    console.log("incoming "+jqXHR.responseText);
+  })
+  .always(function() { console.log('getJSON request ended!');
+  })
+  .complete(function() { console.log("complete"); });
+});});
+	</script>
+	<script>
+
+		$(document).ready(function () {
+			$("#button").click(function(e){
+				e.preventDefault();
+				var choice = $("#cityfield").val();
+				console.log("Chosen: " + choice);
+				$("#dispcity").text(choice);
+				var turl = "http://p-ti.me:3000/getcolor?q="+choice;
+//				turl += choice;
+//				turl += ".json";
+				console.log("Sending color request to " + turl);
+				$.getJSON(turl, function(data) {
+			//:wq
+			//		data = data[1];
+					var part = "";
+					$.each(data, function(i,item) {
+     						 part = data[i].value;
+    					});
+					console.log("Got JSON: " + data);
+					console.log("Inner JSON: " + data[0]);
+					
+//					console.log("data[value] " + data[value]);
+					console.log("data.value  " + part);
+					var result = "<font color=\"" + part + "\">";
+					result += part;
+					result += "</ font>";
+					console.log("Got result: " + result);
+					$("#weather").html(result);
+				});
+			});
+		});
+
+	</script>
+	<script>
+/*                $(document).ready(function () {
+                        $("#button").click(function(e){
+                                e.preventDefault();
+                                var choice = $("#cityfield").val();
+                                console.log("Chosen: " + choice);
+                                $("#dispcity").text(choice);
+                                var turl = "http://p-ti.me:3000/getcolor?q="+choice;
+				console.log("Making request to url: " + turl);
+				$.ajax({
+					url : turl,
+					dataType : "jsonp",
+					fail : function(jqXHR, textStatus, errorThrown) { 
+    console.log('getJSON request failed! ' + textStatus); 
+    console.log("incoming "+jqXHR.responseText);
+  },
+
+					success : function(parsed_json) {
+						console.log("Got JSON: " + parsed_json);	
+					
+						result = "<font color=\"" + parsed_json[0].value + "\"";
+						result += parsed_json[0].value;
+						result += "<\ font>"
+						
+						console.log("Got result: " + result);
+													
+						$("#Vweather").html(result);
+					}
+				})
+			});
+		});
+
+
+	</script>
+	<link rel="stylesheet" type="text/css" title="main" href="resume.css">
+</head>
+<body>
+<div style="align : center">
+<table>
+	<tr class="title-area">
+		<td>
+			<form>
+				<span class="hilite">Enter a color name:</span> <input type="text" id="cityfield" value=""><br>
+				<input id="button" type="submit" value="Submit">
+			</form>
+		</td>
+		<td>
+			Suggestion: <span id="txtHint">Empty</span>
+		</td>
+
+	</tr>
+	<tr class="copy-area">
+		<td>
+			<p class="hilite">Current HTML color</p>
+			<div id="weather">No color</div>
+		</td>
+		<td>
+			<p class="hilite">Color</p>
+			<textarea id="dispcity">No Color</textarea>
+		</td>
+	</tr>
+</table>
+</div>
+
+</body>
+</html>

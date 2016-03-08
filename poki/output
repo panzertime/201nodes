@@ -1,0 +1,132 @@
+nohup: ignoring input
+[0mGET / [36m304 [0m7.961 ms - -[0m
+[0mGET /app.js [36m304 [0m4.102 ms - -[0m
+[0mGET /style.css [36m304 [0m1.242 ms - -[0m
+In Pokemon
+[0mGET /pokemon [36m304 [0m4.170 ms - -[0m
+In politics
+[0mGET /politics [32m200 [0m635.729 ms - 124147[0m
+[0mGET / [32m200 [0m2.499 ms - 775[0m
+[0mGET /app.js [32m200 [0m1.748 ms - 872[0m
+[0mGET /style.css [32m200 [0m0.578 ms - 548[0m
+In Pokemon
+[0mGET /pokemon [32m200 [0m1.038 ms - 645[0m
+In politics
+[0mGET /favicon.ico [33m404 [0m362.214 ms - 1055[0m
+[0mGET /politics [32m200 [0m527.917 ms - 124147[0m
+[0mGET / [36m304 [0m0.584 ms - -[0m
+[0mGET /app.js [36m304 [0m0.592 ms - -[0m
+[0mGET /style.css [36m304 [0m0.907 ms - -[0m
+In Pokemon
+[0mGET /pokemon [36m304 [0m1.517 ms - -[0m
+In politics
+[0mGET /politics [32m200 [0m537.479 ms - 124147[0m
+[0mGET / [32m206 [0m2.777 ms - 775[0m
+[0mGET /app.js [32m206 [0m2.732 ms - 872[0m
+[0mGET / [32m200 [0m0.607 ms - 775[0m
+[0mGET /app.js [32m200 [0m0.843 ms - 872[0m
+[0mGET /style.css [32m200 [0m0.526 ms - 548[0m
+In Pokemon
+[0mGET /pokemon [32m200 [0m0.963 ms - 645[0m
+In politics
+[0mGET /favicon.ico [33m404 [0m45.054 ms - 1055[0m
+[0mGET /politics [32m200 [0m542.438 ms - 124147[0m
+[0mGET / [32m200 [0m1.297 ms - 775[0m
+[0mGET /app.js [32m200 [0m0.690 ms - 872[0m
+[0mGET /style.css [32m200 [0m0.482 ms - 548[0m
+In Pokemon
+[0mGET /pokemon [32m200 [0m1.148 ms - 645[0m
+In politics
+[0mGET /favicon.ico [33m404 [0m39.139 ms - 1055[0m
+[0mGET /politics [32m200 [0m2738.872 ms - 124147[0m
+[0mGET http://testp2.czar.bielawa.pl/testproxy.php [33m404 [0m17.950 ms - 1055[0m
+[0mGET /manager/html [33m404 [0m21.116 ms - 1055[0m
+[0mGET / [32m200 [0m0.638 ms - 775[0m
+[0mGET /app.js [32m200 [0m1.300 ms - 872[0m
+[0mGET /style.css [32m200 [0m0.588 ms - 548[0m
+In Pokemon
+[0mGET /pokemon [32m200 [0m3.029 ms - 645[0m
+In politics
+[0mGET /favicon.ico [33m404 [0m13.049 ms - 1055[0m
+[0mGET /politics [32m200 [0m673.773 ms - 124147[0m
+[0mGET /manager/html [33m404 [0m12.921 ms - 1055[0m
+[0mGET /manager/html [33m404 [0m15.579 ms - 1055[0m
+[0mGET /manager/html [33m404 [0m19.867 ms - 1055[0m
+[0mGET http://testp1.piwo.pila.pl/testproxy.php [33m404 [0m9.232 ms - 1055[0m
+[0mGET /axis2/axis2-admin [33m404 [0m8.630 ms - 1055[0m
+[0mGET /axis2/axis2-admin [33m404 [0m7.385 ms - 1055[0m
+[0mGET /axis2/axis2-admin [33m404 [0m10.500 ms - 1055[0m
+[0mGET /manager/html [33m404 [0m16.344 ms - 1055[0m
+[0mGET http://testp2.czar.bielawa.pl/testproxy.php [33m404 [0m11.065 ms - 1055[0m
+[0mGET /manager/html [33m404 [0m16.391 ms - 1055[0m
+[0mGET http://testp5.mielno.lubin.pl/testproxy.php [33m404 [0m13.306 ms - 1055[0m
+[0mGET / [32m200 [0m1.124 ms - 775[0m
+[0mGET http://testp2.czar.bielawa.pl/testproxy.php [33m404 [0m8.544 ms - 1055[0m
+[0mGET http://www.google.com/reader/about/ [33m404 [0m8.600 ms - 1055[0m
+[0mGET / [32m200 [0m0.730 ms - 775[0m
+[0mGET /app.js [32m200 [0m1.806 ms - 872[0m
+[0mGET /style.css [32m200 [0m1.853 ms - 548[0m
+In Pokemon
+[0mGET /pokemon [32m200 [0m0.910 ms - 645[0m
+In politics
+[0mGET /favicon.ico [33m404 [0m13.331 ms - 1055[0m
+[0mGET /politics [32m200 [0m3525.856 ms - 124147[0m
+[0mGET / [36m304 [0m0.451 ms - -[0m
+[0mGET /app.js [36m304 [0m1.204 ms - -[0m
+[0mGET /style.css [36m304 [0m1.181 ms - -[0m
+In Pokemon
+[0mGET /pokemon [36m304 [0m1.616 ms - -[0m
+In politics
+[0mGET /politics [32m200 [0m541.202 ms - 124147[0m
+[0mGET http://www.baidu.com/robots.txt [33m404 [0m20.951 ms - 1055[0m
+[0mGET /manager/html [33m404 [0m9.642 ms - 1055[0m
+[0mGET http://testp3.pospr.waw.pl/testproxy.php [33m404 [0m8.063 ms - 1055[0m
+[0mGET http://testp1.piwo.pila.pl/testproxy.php [33m404 [0m8.033 ms - 1055[0m
+[0mGET http://www.google.com/reader/about/ [33m404 [0m8.974 ms - 1055[0m
+[0mGET / [32m200 [0m1.038 ms - 775[0m
+[0mGET / [32m200 [0m0.539 ms - 775[0m
+[0mPOST /invoker/JMXInvokerServlet [33m404 [0m8.104 ms - 1055[0m
+[0mGET / [32m200 [0m0.671 ms - 775[0m
+[0mPOST /invoker/JMXInvokerServlet [33m404 [0m7.913 ms - 1055[0m
+[0mGET http://testp2.czar.bielawa.pl/testproxy.php [33m404 [0m7.604 ms - 1055[0m
+[0mGET / [32m200 [0m0.586 ms - 775[0m
+[0mPOST /invoker/JMXInvokerServlet [33m404 [0m7.699 ms - 1055[0m
+[0mGET / [32m200 [0m0.523 ms - 775[0m
+[0mPOST /invoker/JMXInvokerServlet [33m404 [0m7.878 ms - 1055[0m
+[0mGET http://testp2.czar.bielawa.pl/testproxy.php [33m404 [0m7.198 ms - 1055[0m
+[0mGET http://testp5.mielno.lubin.pl/testproxy.php [33m404 [0m7.271 ms - 1055[0m
+[0mGET /manager/html [33m404 [0m9.340 ms - 1055[0m
+[0mGET //script [33m404 [0m7.626 ms - 1055[0m
+[0mGET //zabbix/index.php [33m404 [0m7.587 ms - 1055[0m
+[0mGET /common/index.jsf/common/index.jsf [33m404 [0m8.668 ms - 1055[0m
+[0mGET /manager/html [33m404 [0m7.072 ms - 1055[0m
+[0mGET /axis2/axis2-admin/ [33m404 [0m7.044 ms - 1055[0m
+[0mGET http://testp3.pospr.waw.pl/testproxy.php [33m404 [0m8.120 ms - 1055[0m
+[0mGET http://testp2.czar.bielawa.pl/testproxy.php [33m404 [0m11.463 ms - 1055[0m
+[0mGET /manager/html [33m404 [0m6.833 ms - 1055[0m
+[0mGET http://testp1.piwo.pila.pl/testproxy.php [33m404 [0m16.476 ms - 1055[0m
+[0mGET http://testp2.czar.bielawa.pl/testproxy.php [33m404 [0m7.955 ms - 1055[0m
+[0mGET /manager/html [33m404 [0m10.919 ms - 1055[0m
+[0mGET http://testp3.pospr.waw.pl/testproxy.php [33m404 [0m6.833 ms - 1055[0m
+[0mGET /manager/html [33m404 [0m6.906 ms - 1055[0m
+[0mGET /manager/html [33m404 [0m7.690 ms - 1055[0m
+[0mGET / [32m200 [0m0.840 ms - 775[0m
+[0mPOST /invoker/JMXInvokerServlet [33m404 [0m6.872 ms - 1055[0m
+[0mGET http://testp1.piwo.pila.pl/testproxy.php [33m404 [0m7.835 ms - 1055[0m
+[0mGET http://www.google.com/reader/about/ [33m404 [0m12.569 ms - 1055[0m
+[0mGET http://testp1.piwo.pila.pl/testproxy.php [33m404 [0m7.827 ms - 1055[0m
+[0mGET /manager/html [33m404 [0m6.705 ms - 1055[0m
+[0mGET http://httpheader.net/ [32m200 [0m0.757 ms - 775[0m
+[0mGET http://www.google.com/reader/about/ [33m404 [0m6.825 ms - 1055[0m
+[0mGET http://testp1.piwo.pila.pl/testproxy.php [33m404 [0m8.115 ms - 1055[0m
+[0mGET /manager/html [33m404 [0m7.225 ms - 1055[0m
+[0mGET http://testp4.pospr.waw.pl/testproxy.php [33m404 [0m7.336 ms - 1055[0m
+[0mPOST /404 [33m404 [0m6.935 ms - 1055[0m
+[0mGET / [32m200 [0m0.721 ms - 775[0m
+[0mPOST /invoker/JMXInvokerServlet [33m404 [0m7.044 ms - 1055[0m
+[0mGET http://testp2.czar.bielawa.pl/testproxy.php [33m404 [0m6.960 ms - 1055[0m
+[0mHEAD / [32m200 [0m0.361 ms - 775[0m
+[0mGET http://testp3.pospr.waw.pl/testproxy.php [33m404 [0m7.840 ms - 1055[0m
+[0mGET /getcolor?=r [33m404 [0m6.781 ms - 1055[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.623 ms - 548[0m
+[0mGET /favicon.ico [33m404 [0m6.770 ms - 1055[0m
