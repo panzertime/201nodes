@@ -66,3 +66,133 @@ Intermediate result: [object Object]
 black
 [ { color: 'red', value: '#f00' } ]
 [0mGET /getcolor?q=red [36m304 [0m2.801 ms - -[0m
+[0mGET / [32m200 [0m0.822 ms - 3542[0m
+[0mGET /resume.css [32m200 [0m0.530 ms - 1101[0m
+[0mGET /favicon.ico [33m404 [0m357.952 ms - 1075[0m
+In getcolor route
+/^P/
+Intermediate result: [object Object]
+red
+Intermediate result: [object Object]
+green
+Intermediate result: [object Object]
+blue
+Intermediate result: [object Object]
+cyan
+Intermediate result: [object Object]
+magenta
+Intermediate result: [object Object]
+yellow
+Intermediate result: [object Object]
+black
+[]
+[0mGET /getcolor?q=P [32m200 [0m1.300 ms - 2[0m
+In getcolor route
+/^P/
+Intermediate result: [object Object]
+red
+Intermediate result: [object Object]
+green
+Intermediate result: [object Object]
+blue
+Intermediate result: [object Object]
+cyan
+Intermediate result: [object Object]
+magenta
+Intermediate result: [object Object]
+yellow
+Intermediate result: [object Object]
+black
+[]
+[0mGET /getcolor?q=P [36m304 [0m1.226 ms - -[0m
+In getcolor route
+/^Pi/
+Intermediate result: [object Object]
+red
+Intermediate result: [object Object]
+green
+Intermediate result: [object Object]
+blue
+Intermediate result: [object Object]
+cyan
+Intermediate result: [object Object]
+magenta
+Intermediate result: [object Object]
+yellow
+Intermediate result: [object Object]
+black
+[]
+[0mGET /getcolor?q=Pi [32m200 [0m0.973 ms - 2[0m
+In getcolor route
+/^Pin/
+Intermediate result: [object Object]
+red
+Intermediate result: [object Object]
+green
+Intermediate result: [object Object]
+blue
+Intermediate result: [object Object]
+cyan
+Intermediate result: [object Object]
+magenta
+Intermediate result: [object Object]
+yellow
+Intermediate result: [object Object]
+black
+[]
+[0mGET /getcolor?q=Pin [32m200 [0m4.152 ms - 2[0m
+In getcolor route
+/^Pink/
+Intermediate result: [object Object]
+red
+Intermediate result: [object Object]
+green
+Intermediate result: [object Object]
+blue
+Intermediate result: [object Object]
+cyan
+Intermediate result: [object Object]
+magenta
+Intermediate result: [object Object]
+yellow
+Intermediate result: [object Object]
+black
+[]
+[0mGET /getcolor?q=Pink [32m200 [0m5.323 ms - 2[0m
+In getcolor route
+/^Pink/
+Intermediate result: [object Object]
+red
+Intermediate result: [object Object]
+green
+Intermediate result: [object Object]
+blue
+Intermediate result: [object Object]
+cyan
+Intermediate result: [object Object]
+magenta
+Intermediate result: [object Object]
+yellow
+Intermediate result: [object Object]
+black
+[]
+[0mGET /getcolor?q=Pink [36m304 [0m1.432 ms - -[0m
+In getcolor route
+/^Pink/
+Intermediate result: [object Object]
+red
+Intermediate result: [object Object]
+green
+Intermediate result: [object Object]
+blue
+Intermediate result: [object Object]
+cyan
+Intermediate result: [object Object]
+magenta
+Intermediate result: [object Object]
+yellow
+Intermediate result: [object Object]
+black
+[]
+[0mGET /getcolor?q=Pink [36m304 [0m0.675 ms - -[0m
+[0mGET /resume.css [36m304 [0m0.468 ms - -[0m

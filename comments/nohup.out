@@ -1,0 +1,39 @@
+
+> comments@0.0.0 start /home/bitnami/nodes/comments
+> node ./bin/www
+
+Connected
+[0mGET / [36m304 [0m6.514 ms - -[0m
+[0mGET /resume.css [36m304 [0m1.686 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.540 ms - -[0m
+POST comment route
+{ Name: 'a', Comment: 'zzzz' }
+{ _id: 56e1acc42307c435353989eb, Comment: 'zzzz', Name: 'a' }
+{ _id: 56e1acc42307c435353989eb,
+  Comment: 'zzzz',
+  Name: 'a',
+  __v: 0 }
+[0mPOST /comment [32m200 [0m43.051 ms - 2[0m
+In the GET route?
+[ { __v: 0, Comment: 's', Name: 'a', _id: 56e1a967302ca2f833b8a592 },
+  { __v: 0, Comment: 's', Name: 'a', _id: 56e1aa5d20c95d45345df8db },
+  { __v: 0, Comment: 'g', Name: 'a', _id: 56e1aa6520c95d45345df8dc },
+  { __v: 0, Comment: '', Name: '', _id: 56e1abe59971d9e6345d0f05 },
+  { __v: 0, Comment: '', Name: '', _id: 56e1abe79971d9e6345d0f06 },
+  { __v: 0,
+    Comment: 'boogers',
+    Name: 'a',
+    _id: 56e1ac306f74e002356b5d4a },
+  { __v: 0,
+    Comment: 'boogers',
+    Name: 'a',
+    _id: 56e1ac326f74e002356b5d4b },
+  { __v: 0, Comment: 's', Name: 'a', _id: 56e1ac8ac16eaf1b35b294e9 },
+  { __v: 0,
+    Comment: 'zzzz',
+    Name: 'a',
+    _id: 56e1acc42307c435353989eb } ]
+[0mGET /comment [32m200 [0m17.260 ms - 624[0m
+[0mGET / [36m304 [0m0.535 ms - -[0m
+[0mGET /resume.css [36m304 [0m0.801 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.270 ms - -[0m
