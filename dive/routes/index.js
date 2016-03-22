@@ -25,19 +25,18 @@ MongoClient.connect(dbUrl, function (err, db) {
     // do some work here with the database.
     collection = db.collection('dives');
     collection.remove(); // Remove anything that was there before
-    });
-//    collection.insert(dives, function (err, result) {
-//      if (err) {
-//        console.log(err);
-//      } else {
-//        console.log('Inserted %d documents into the "dive" collection. The documents inserted with "_id" are:', result.length, result);
-//      }
+    collection.insert(dives, function (err, result) {
+      if (err) {
+        console.log(err);
+      } else {
+        console.log('Inserted %d documents into the "dive" collection. The documents inserted with "_id" are:', result.length, result);
+      }
 
       // Dont Close the connection, so we can use it in other routes
       // db.close();
-//    })
-//  }
-//});
+    });
+  }
+});
 
 /* GET home page. */
 router.get('/', function(req, res) {
