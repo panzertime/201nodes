@@ -25,7 +25,7 @@ MongoClient.connect(dbUrl, function (err, db) {
     // do some work here with the database.
     collection = db.collection('dives');
     collection.remove(); // Remove anything that was there before
-    collection.insert(dives, function (err, result) {
+ /*   collection.insert(dives, function (err, result) {
       if (err) {
         console.log(err);
       } else {
