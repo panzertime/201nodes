@@ -2,6 +2,8 @@ var express = require('express');
 var router = express.Router();
 var request = require('request');
 var mongodb = require('mongodb');
+var url = require('url');
+
 
 // We need to work with "MongoClient" interface in order to connect to a mongodb server.
 var MongoClient = mongodb.MongoClient;
@@ -23,7 +25,7 @@ MongoClient.connect(dbUrl, function (err, db) {
     // do some work here with the database.
     collection = db.collection('dive');
     collection.remove(); // Remove anything that was there before
-    collection.insert(pokemon, function (err, result) {
+    collection.insert(dive, function (err, result) {
       if (err) {
         console.log(err);
       } else {
@@ -41,9 +43,11 @@ router.get('/', function(req, res) {
   res.sendFile('index.html', { root: 'public' });
 });
 
-router.get('/dives', function(req, res) {
+router.get('/dive', function(req, res) {
   console.log("In dives");
-  collection.find().toArray(function(err, result) {
+  var url_parts = url.parse(req.url, true);
+  var query = url_parts.query;
+  collection.find({name : query}).toArray(function(err, result) {
     if(err) {
       console.log(err);
     } else if (result.length) {
