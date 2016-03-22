@@ -39,7 +39,7 @@ function mainCtrl ($scope, diveFetcher) {
       $scope.dives = data
     })}
 
-    }
+    
 
    $scope.pickName = function(event) {
    	event.preventDefault();
@@ -53,4 +53,6 @@ function mainCtrl ($scope, diveFetcher) {
     })
    }
 
-}
+  }
+
+
