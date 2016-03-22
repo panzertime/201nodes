@@ -12,7 +12,7 @@ var MongoClient = mongodb.MongoClient;
 var dbUrl = 'mongodb://localhost:27017/dive';
 
 // we will use this variable later to insert and retrieve a "collection" of data
-var collection
+var collection;
 
 // Use connect method to connect to the Server
 MongoClient.connect(dbUrl, function (err, db) {
