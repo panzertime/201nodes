@@ -42,9 +42,10 @@ function mainCtrl ($scope, diveFetcher) {
     }
 
    $scope.pickName = function(event) {
+   	$document.ready(
    	event.preventDefault();
 	var name = {name:$scope.Name};
-	console.log(name);
+	console.log(name);)
    
 
   diveFetcher.get()
