@@ -50,6 +50,7 @@ function mainCtrl ($scope, diveFetcher) {
   diveFetcher.get()
     .then(function (data) {
       $scope.dives = data
-    })}
+    })
+   }
 
 }
