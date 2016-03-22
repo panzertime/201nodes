@@ -9,7 +9,7 @@ var url = require('url');
 var MongoClient = mongodb.MongoClient;
 
 // Connection URL. This is where your mongodb server is running.
-var dbUrl = 'mongodb://localhost:27017/dive';
+var dbUrl = 'mongodb://localhost:27017/';
 
 // we will use this variable later to insert and retrieve a "collection" of data
 var collection;

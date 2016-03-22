@@ -34,17 +34,22 @@ function mainCtrl ($scope, diveFetcher) {
       console.log(formData);
       diveFetcher.post(formData); // Send the data to the back end
       $scope.dives.push(formData); // Update the model
+      diveFetcher.get()
+    .then(function (data) {
+      $scope.dives = data
+    })}
+
     }
 
    $scope.pickName = function(event) {
    	event.preventDefault();
 	var name = {name:$scope.Name};
 	console.log(name);
-   }
+   
 
   diveFetcher.get()
     .then(function (data) {
       $scope.dives = data
-    })
+    })}
 
 }
