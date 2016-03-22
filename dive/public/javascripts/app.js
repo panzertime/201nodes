@@ -30,16 +30,21 @@ function mainCtrl ($scope, diveFetcher) {
 
     $scope.addDive = function(event) {
 	event.preventDefault();
-      var formData = {name:$scope.Name,avatarUrl:$scope.Url};
-	var formData = {
+	var formData = {name:$scope.Name,ipg:$scope.ipg,depth:$scope.depth,abt:$scope.abt,fpg:$scope.fpg,si:$scope.si};
       console.log(formData);
-      pokemonFetcher.post(formData); // Send the data to the back end
-      $scope.pokemon.push(formData); // Update the model
+      diveFetcher.post(formData); // Send the data to the back end
+      $scope.dives.push(formData); // Update the model
     }
 
-  pokemonFetcher.get()
+   $scope.pickName = function(event) {
+   	event.preventDefault();
+	var name = {name:$scope.Name};
+	console.log(name);
+   }
+
+  diveFetcher.get()
     .then(function (data) {
-      $scope.pokemon = data
+      $scope.dives = data
     })
 
 }
