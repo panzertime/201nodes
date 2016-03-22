@@ -9,7 +9,7 @@ var url = require('url');
 var MongoClient = mongodb.MongoClient;
 
 // Connection URL. This is where your mongodb server is running.
-var dbUrl = 'mongodb://localhost:27017/';
+var dbUrl = 'mongodb://localhost:27017/dive';
 
 // we will use this variable later to insert and retrieve a "collection" of data
 var collection;
@@ -23,9 +23,9 @@ MongoClient.connect(dbUrl, function (err, db) {
     console.log('Connection established to', dbUrl);
 
     // do some work here with the database.
-    collection = db.collection('dive');
+    collection = db.collection('dives');
     collection.remove(); // Remove anything that was there before
-    collection.insert(dive, function (err, result) {
+    collection.insert(dives, function (err, result) {
       if (err) {
         console.log(err);
       } else {
