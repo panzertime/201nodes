@@ -76,3 +76,5 @@ router.post('/dives', function(req, res) {
 
 module.exports = router;
 
+var dives = [];
+
