@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+<script src="./javascripts/app.js"></script>
+<link rel="stylesheet" type="text/css" href="./stylesheets/.css">
+  <meta charset="utf-8">
+  <title>Dive Log</title>
+</head>
+<body>
+
+<div class="title-area">
+<form id="name" ng-submit="pickName()">
+Name: <input type="text" ng-model="Name" value=""><br>
+<input type="submit" value="Submit">
+</form>
+</div>
+
+<div class="copy-area">
+<form id="ipg" ng-submit="ipg()">
+Initial pressure group: <input type="text" ng-model="ipg" value=""><br>
+Depth: <input type="text" ng-model="depth" value=""><br>
+Bottom time: <input type="text" ng-model="abt" value=""><br>
+Final pressure group: <input type="text" ng-model="fpg" value=""><br>
+Surface interval: <input type="text" ng-model="si" value=""><br>
+<input type="submit" value="Submit">
+</form>
+</div>
+
+  <div id='app' ng-app='app' ng-controller='mainCtrl'>
+
+    <div ng-if='!dives.length' class='no-pokemon center stretch'>
+      <h1 class='h1'>
+      No dives input yet for this guy
+	</h1>
+    </div>
+
+    <ul ng-if='dives.length' class='list center stretch'>
+      <li ng-repeat='d in dives' class='copy'>
+        <h1>{{ p.name }}</h1>
+        <img class='avatar' ng-src="{{p.avatarUrl}}" />
+      </li>
+    </ul>
+
+  </div>
+
+</body>
+</html>
