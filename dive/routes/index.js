@@ -76,5 +76,5 @@ router.post('/dive', function(req, res) {
 
 module.exports = router;
 
-var dives = [];
+var dives = [{name:"rt",ipg:"M",depth:"35",abt:"35",fpg:"T",si:"92"}];
 
