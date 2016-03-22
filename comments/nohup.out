@@ -37,3 +37,97 @@ In the GET route?
 [0mGET / [36m304 [0m0.535 ms - -[0m
 [0mGET /resume.css [36m304 [0m0.801 ms - -[0m
 [0mGET /javascripts/comments.js [36m304 [0m0.270 ms - -[0m
+[0mGET / [36m304 [0m0.368 ms - -[0m
+[0mGET /resume.css [36m304 [0m0.368 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.239 ms - -[0m
+[0mGET / [32m200 [0m4.135 ms - 835[0m
+[0mGET /robots.txt [33m404 [0m366.701 ms - 1690[0m
+[0mGET /sitemap.xml [33m404 [0m45.761 ms - 1690[0m
+[0mGET / [36m304 [0m0.462 ms - -[0m
+[0mGET /resume.css [36m304 [0m0.311 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.972 ms - -[0m
+[0mGET / [32m200 [0m3.043 ms - 835[0m
+[0mGET /resume.css [32m200 [0m4.409 ms - 1101[0m
+[0mGET /javascripts/comments.js [32m200 [0m0.464 ms - 827[0m
+[0mGET /favicon.ico [33m404 [0m66.451 ms - 1690[0m
+In the GET route?
+[ { __v: 0, Comment: 's', Name: 'a', _id: 56e1a967302ca2f833b8a592 },
+  { __v: 0, Comment: 's', Name: 'a', _id: 56e1aa5d20c95d45345df8db },
+  { __v: 0, Comment: 'g', Name: 'a', _id: 56e1aa6520c95d45345df8dc },
+  { __v: 0, Comment: '', Name: '', _id: 56e1abe59971d9e6345d0f05 },
+  { __v: 0, Comment: '', Name: '', _id: 56e1abe79971d9e6345d0f06 },
+  { __v: 0,
+    Comment: 'boogers',
+    Name: 'a',
+    _id: 56e1ac306f74e002356b5d4a },
+  { __v: 0,
+    Comment: 'boogers',
+    Name: 'a',
+    _id: 56e1ac326f74e002356b5d4b },
+  { __v: 0, Comment: 's', Name: 'a', _id: 56e1ac8ac16eaf1b35b294e9 },
+  { __v: 0,
+    Comment: 'zzzz',
+    Name: 'a',
+    _id: 56e1acc42307c435353989eb } ]
+[0mGET /comment [32m200 [0m9.363 ms - 624[0m
+POST comment route
+{ Name: 'Silly Rabbit', Comment: 'Tricks are for kids' }
+{ _id: 56e9aa792307c435353989ec,
+  Comment: 'Tricks are for kids',
+  Name: 'Silly Rabbit' }
+{ _id: 56e9aa792307c435353989ec,
+  Comment: 'Tricks are for kids',
+  Name: 'Silly Rabbit',
+  __v: 0 }
+[0mPOST /comment [32m200 [0m5.411 ms - 2[0m
+In the GET route?
+[ { __v: 0, Comment: 's', Name: 'a', _id: 56e1a967302ca2f833b8a592 },
+  { __v: 0, Comment: 's', Name: 'a', _id: 56e1aa5d20c95d45345df8db },
+  { __v: 0, Comment: 'g', Name: 'a', _id: 56e1aa6520c95d45345df8dc },
+  { __v: 0, Comment: '', Name: '', _id: 56e1abe59971d9e6345d0f05 },
+  { __v: 0, Comment: '', Name: '', _id: 56e1abe79971d9e6345d0f06 },
+  { __v: 0,
+    Comment: 'boogers',
+    Name: 'a',
+    _id: 56e1ac306f74e002356b5d4a },
+  { __v: 0,
+    Comment: 'boogers',
+    Name: 'a',
+    _id: 56e1ac326f74e002356b5d4b },
+  { __v: 0, Comment: 's', Name: 'a', _id: 56e1ac8ac16eaf1b35b294e9 },
+  { __v: 0,
+    Comment: 'zzzz',
+    Name: 'a',
+    _id: 56e1acc42307c435353989eb },
+  { __v: 0,
+    Comment: 'Tricks are for kids',
+    Name: 'Silly Rabbit',
+    _id: 56e9aa792307c435353989ec } ]
+[0mGET /comment [32m200 [0m8.331 ms - 721[0m
+[0mGET / [36m304 [0m0.534 ms - -[0m
+[0mGET /resume.css [36m304 [0m0.838 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.732 ms - -[0m
+In the GET route?
+[ { __v: 0, Comment: 's', Name: 'a', _id: 56e1a967302ca2f833b8a592 },
+  { __v: 0, Comment: 's', Name: 'a', _id: 56e1aa5d20c95d45345df8db },
+  { __v: 0, Comment: 'g', Name: 'a', _id: 56e1aa6520c95d45345df8dc },
+  { __v: 0, Comment: '', Name: '', _id: 56e1abe59971d9e6345d0f05 },
+  { __v: 0, Comment: '', Name: '', _id: 56e1abe79971d9e6345d0f06 },
+  { __v: 0,
+    Comment: 'boogers',
+    Name: 'a',
+    _id: 56e1ac306f74e002356b5d4a },
+  { __v: 0,
+    Comment: 'boogers',
+    Name: 'a',
+    _id: 56e1ac326f74e002356b5d4b },
+  { __v: 0, Comment: 's', Name: 'a', _id: 56e1ac8ac16eaf1b35b294e9 },
+  { __v: 0,
+    Comment: 'zzzz',
+    Name: 'a',
+    _id: 56e1acc42307c435353989eb },
+  { __v: 0,
+    Comment: 'Tricks are for kids',
+    Name: 'Silly Rabbit',
+    _id: 56e9aa792307c435353989ec } ]
+[0mGET /comment [36m304 [0m9.138 ms - -[0m
