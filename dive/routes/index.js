@@ -60,7 +60,7 @@ router.get('/dive', function(req, res) {
   });
 });
 
-router.post('/dives', function(req, res) {
+router.post('/dive', function(req, res) {
     console.log("In dives Post");
     console.log(req.body);
     collection.insert(req.body, function (err, result) {
